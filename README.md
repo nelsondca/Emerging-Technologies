@@ -8,11 +8,7 @@ This project is a client-side implementation of the famous ELIZA chatbot, one of
 
 This chatbot processes what you type and responds based on a series of predefined patterns, giving the impression that it’s listening and “understanding” you. The conversation happens right in the web browser, with no need for external servers or libraries.
 
-<<<<<<< HEAD
 # Why is This project Useful?
-=======
-# Why is this project Useful?
->>>>>>> origin/main
 
 If you're curious about how simple rules can create a conversation-like interaction, this project is a great learning tool.
 To explore:
