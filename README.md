@@ -1,6 +1,6 @@
 # Emerging-Technologies
 
-# ELIZA Chatbot]
+# ELIZA Chatbot
 
 This project is a client-side implementation of the famous ELIZA chatbot, one of the earliest AI programs designed to simulate a conversation with a therapist. The chatbot runs entirely in the browser using HTML, CSS, and JavaScript, with no external libraries or APIs.
 
