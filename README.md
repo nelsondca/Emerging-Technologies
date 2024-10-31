@@ -15,19 +15,17 @@ A trigram is a sequence of three characters in text, like "THE" or "AND". We can
 
 # What Does This Tasks Do?
 
-Task1: Build the Trigram model
+Task1 - Builds the Trigram model
+Loads English texts from Project Gutenberg, cleans them,and counts each trigram (three-character sequence). The resulting model captures common patterns in the language.
+
+Task2 - Generates text
+Using the trigram model, it generates a 10,000 character string that sounds familiar with English text. Starting with "TH",it picks each next character based on probabilites from the model, builds a text that refelcts the style of the original works.
+
+Task3 - Analysis of the Generated text
+To see how "English-like" the generated text is, it compares it agains a list of valid English words in (words.txt). By calculating the percentage of valid words in the generated text,we can measure how closely the model replicates real English.
+
+Task4 - Exporting the Model as JSON
+Exports the trigram model as JSON file (trigrams.json). This allows us to use it in the project later on.
 
 
 
-# Why is This project Useful?
-
-If you're curious about how simple rules can create a conversation-like interaction, this project is a great learning tool.
-To explore:
-AI principles
-How to build a client-side app with just HTML,CSS,and JavaScript.
-
-
-# Runing the code in VSCODE
-# - connect to codespaces
-# - select codeespace environment already existent HumbleDisco
-# - python 3 kernel
