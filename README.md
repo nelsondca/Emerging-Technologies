@@ -57,7 +57,17 @@ Each task in the project structured in the Jupyter Notebook has a clear explanat
 
 After the completion of task 4, you will have a trigrams.json file in the /Data directory. This file contains the trigram model, saved in JSON format, with each trigram and its frequency count.
 
+# Example Outputs
 
+Here is a short example of what the generated text might look like ( each run will change slightly):
+
+"TH IS A SA MP LE OF TE XT TH AT LO OKS LI KE EN GL ISH BUT MI GH T NO T MA KE S EN SE"
+
+The generated text will likely contain between 30 - 50 % valid english words in this case using the source texts in /Data directory.
+
+# Conclusion
+
+We have shown through these tests that a trigram-based model can estimate language patterns and produce English-structured text. It is a very straightforward method and it can be reusable for more text production and natural language processing strategies. 
 
 
 
