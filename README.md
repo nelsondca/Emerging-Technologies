@@ -27,5 +27,27 @@ To see how "English-like" the generated text is, it compares it agains a list of
 Task4 - Exporting the Model as JSON
 Exports the trigram model as JSON file (trigrams.json). This allows us to use it in the project later on.
 
+# Getting Started
+
+- Python 3.x
+- Jupyter Notebook (optional but recommended for step-by-step execution)
+- words.txt (file which you can file in repo structure or create a sample one)
+
+# Set up
+
+1. Clone the repository
+in terminal run command
+- git clone https://github.com/nelsondca/Emerging-Technologies
+
+2. Intall any necessary libraries (if they are not installed already)
+run command
+- pip install Jupyter
+
+3. Open trigrams.ipynb in Jupyter Notebook to run each cell and follow the steps.
+
+
+
+
+
 
 
