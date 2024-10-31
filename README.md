@@ -45,6 +45,14 @@ run command
 
 3. Open trigrams.ipynb in Jupyter Notebook to run each cell and follow the steps.
 
+# Running the Project
+
+Each task in the project structured in the Jupyter Notebook has a clear explanation and code blocks. Open trigrams.ipynb and execute each cell in order. You will be able to see:
+- How the trigram model is built
+- The generated text
+- The percentage of valid English words in that text
+- The exported JSON file
+
 
 
 
