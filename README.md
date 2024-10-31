@@ -15,3 +15,8 @@ To explore:
 AI principles
 How to build a client-side app with just HTML,CSS,and JavaScript.
 
+
+# Runing the code in VSCODE
+# - connect to codespaces
+# - select codeespace environment already existent HumbleDisco
+# - python 3 kernel
