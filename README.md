@@ -1,12 +1,23 @@
-# Emerging-Technologies
+# Emerging-Technologies 
 
-# ELIZA Chatbot
+These Tasks create text that mimics genuine English by using trigrams to create a model of English text patterns. It demonstrates how to use python in a few Project Gutenberg manuscripts to create,analyse,and export a trigram-based generator.
 
-This project is a client-side implementation of the famous ELIZA chatbot, one of the earliest AI programs designed to simulate a conversation with a therapist. The chatbot runs entirely in the browser using HTML, CSS, and JavaScript, with no external libraries or APIs.
+# Overview
 
-# What Does This Project Do?
+A trigram is a sequence of three characters in text, like "THE" or "AND". We can simulate patterns in the English language by counting the instances of each trigram. Then we can produce fresh text that "sounds" like English by beggining with a seed and using these trigrams to generate text character by character.
 
-This chatbot processes what you type and responds based on a series of predefined patterns, giving the impression that it’s listening and “understanding” you. The conversation happens right in the web browser, with no need for external servers or libraries.
+# Goals
+
+- Build a model from classic English texts
+- Generate text based on the trigram model.
+- Analysis of the generated text to see how much it looks like actual English.
+- Export the trigram model as JSON file for reutilisation.
+
+# What Does This Tasks Do?
+
+Task1: Build the Trigram model
+
+
 
 # Why is This project Useful?
 
