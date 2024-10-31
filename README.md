@@ -53,7 +53,9 @@ Each task in the project structured in the Jupyter Notebook has a clear explanat
 - The percentage of valid English words in that text
 - The exported JSON file
 
+# Exporting the Model
 
+After the completion of task 4, you will have a trigrams.json file in the /Data directory. This file contains the trigram model, saved in JSON format, with each trigram and its frequency count.
 
 
 
