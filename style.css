@@ -1,0 +1,28 @@
+#chatbot {
+    max-width: 600px;
+    margin: auto;
+    font-family: Arial, sans-serif;
+    text-align: center;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+}
+
+#conversation {
+    margin-bottom: 15px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border-radius: 5px;
+    min-height: 200px;
+    overflow-y: auto;
+}
+
+#user-input {
+    width: 75%;
+    padding: 8px;
+}
+
+button {
+    padding: 8px 12px;
+    cursor: pointer;
+}
