@@ -1,1 +1,42 @@
 # ELIZA CHATBOT
+
+# Overview
+
+This project is a simple implementation of the ELIZA chatbot, created using HTML, CSS, and JavaScript. The chatbot runs entirely on client side, with no external libraris or APIs, and is deployed using GitHub Pages.
+[View the Chatbot on GitHub Pages]()
+
+# Table of Contents
+
+
+# Running the project
+
+Running locally:
+
+clone the repository to your local machine:
+git clone https://github.com/nelsondca/Emerging-Technologies.git
+navigate to the project directory
+Open index.html in your web browser to start chatbot
+
+# Github Pages Deployment
+
+This project uses GitHub Actions to deploy to GitHub Pages automatically. Every time you push to the main branch, the workflow will build and deploy the eliza directory to GitHub Pages.
+
+GitHub Actions and Workflow (.github/worfklows/deploy.yml)
+
+
+
+# Emerging-Technologies 
+
+
+
+# Goals
+
+
+
+
+# Conclusion
+
+We have shown through these tests that a trigram-based model can estimate language patterns and produce English-structured text. It is a very straightforward method and it can be reusable for more text production and natural language processing strategies. 
+
+
+
