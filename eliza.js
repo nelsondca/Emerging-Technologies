@@ -12,3 +12,20 @@ function getResponse(input) {
     const normalizedInput = input.toLowerCase();
     return responses[normalizedInput] || responses["default"];
 }
+
+function processInput() {
+    const userInput = document.getElementById("user-input").value;
+    if (!userInput.trim()) return;
+
+    const response = getResponse(userInput);
+    conversationHistory.push(`You: ${userInput}`);
+    conversationHistory.push(`ELIZA: ${response}`);
+
+    updateConversation();
+    document.getElementById("user-input").value = "";
+}
+
+function updateConversation() {
+    const chatBox = document.getElementById("chat-box");
+    chatBox.innerHTML = conversationHistory.join("<br>");
+}
