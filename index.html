@@ -7,12 +7,17 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+    <!-- Main container for the chatbot -->
     <div class="chat-container">
         <h1>ELIZA Chatbot</h1>
+        <!-- Chatbox to display the conversation history -->
         <div id="chat-box" class="chat-box"></div>
+        <!-- Input field for user to type messages -->
         <input type="text" id="user-input" placeholder="Type your message here..." />
+        <!-- Button to send the user's input -->
         <button onclick="processInput()">Send</button>
     </div>
+    <!-- Link to the chatbot logic JavaScript file -->
     <script src="eliza.js"></script>
 </body>
 </html>
