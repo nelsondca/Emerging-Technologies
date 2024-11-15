@@ -51,11 +51,11 @@ To run this project locally, you only need a web browser.
 
 # Troubleshooting Common Issues
 
-### GitHub Actions Deployment Error: 
+### GitHub Actions Deployment Error
 
 If you encounter a Git permission error (exit code 128), ensure that you have added a Personal Access Token as a repository secret.
 
-### GitHub Pages Not Updating: 
+### GitHub Pages Not Updating
 
 Make sure GitHub Pages is set to use the gh-pages branch in the repository settings.
 
