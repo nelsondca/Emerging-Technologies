@@ -1,6 +1,6 @@
 # Emerging-Technologies 
 
-These Tasks create text that mimics genuine English by using trigrams to create a model of English text patterns. It demonstrates how to use python in a few Project Gutenberg manuscripts to create,analyse,and export a trigram-based generator.
+These tasks create text that mimics genuine English by using trigrams to create a model of English text patterns. It demonstrates how to use python in a few Project Gutenberg manuscripts to create,analyse,and export a trigram-based generator.
 
 # Overview
 
