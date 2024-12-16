@@ -1,77 +1,73 @@
-# ELIZA CHATBOT
+# Emerging-Technologies 
+
+These Tasks create text that mimics genuine English by using trigrams to create a model of English text patterns. It demonstrates how to use python in a few Project Gutenberg manuscripts to create,analyse,and export a trigram-based generator.
 
 # Overview
 
-This project is a simple implementation of the ELIZA chatbot, created using HTML, CSS, and JavaScript. The chatbot runs entirely on client side, with no external libraris or APIs, and is deployed using GitHub Pages.
+A trigram is a sequence of three characters in text, like "THE" or "AND". We can simulate patterns in the English language by counting the instances of each trigram. Then we can produce fresh text that "sounds" like English by beggining with a seed and using these trigrams to generate text character by character.
 
-[View the Chatbot on GitHub Pages](https://nelsondca.github.io/Emerging-Technologies/)
+# Goals
 
-## Table of Contents
-- [Overview](#overview)
-- [Goals](#goals)
-- [Features](#features)
-- [Running the project](#running-the-project)
-- [Prerequisites](#prerequisites)
-- [Troubleshooting](#troubleshooting-common-issues)
-- [Conclusion](#conclusion)
-- [References](#references)
+- Build a model from classic English texts
+- Generate text based on the trigram model.
+- Analysis of the generated text to see how much it looks like actual English.
+- Export the trigram model as JSON file for reutilisation.
 
-## Goals
+# What Does This Tasks Do?
 
-- **Develop a Functional Chatbot** a chatbot that can respond to user input in a way similar to the original ELIZA.
-- **Client-Side Only** to create a standalone, client-side application that does not rely on external APIs or libraries.
-- **Deploy to GitHub Pages** to use GitHub Actions to automate the deployment of the chatbot to GitHub Pages.
-- **Educational Value** to understand basic chatbot logic, UI design, and deployment workflows with GitHub Actions.
+Task1 - Builds the Trigram model
+Loads English texts from Project Gutenberg, cleans them,and counts each trigram (three-character sequence). The resulting model captures common patterns in the language.
 
+Task2 - Generates text
+Using the trigram model, it generates a 10,000 character string that sounds familiar with English text. Starting with "TH",it picks each next character based on probabilites from the model, builds a text that refelcts the style of the original works.
 
-## Features
+Task3 - Analysis of the Generated text
+To see how "English-like" the generated text is, it compares it agains a list of valid English words in (words.txt). By calculating the percentage of valid words in the generated text,we can measure how closely the model replicates real English.
 
-- **Simple Chatbot Logic** The chatbot uses basic pattern matching to respond to user input.
-- **Client-Side Deployment** Runs entirely on the client side using HTML, CSS, and JavaScript.
-- **GitHub Pages Deployment** Automatically deploys to GitHub Pages using GitHub Actions.
+Task4 - Exporting the Model as JSON
+Exports the trigram model as JSON file (trigrams.json). This allows us to use it in the project later on.
 
-## Running the project
+# Getting Started
 
-Running locally:
+- Python 3.x
+- Jupyter Notebook (optional but recommended for step-by-step execution)
+- words.txt (file which you can file in repo structure or create a sample one)
 
-clone the repository to your local machine:
+# Set up
 
-    git clone https://github.com/nelsondca/Emerging-Technologies.git
+1. Clone the repository
+in terminal run command
+- git clone https://github.com/nelsondca/Emerging-Technologies
 
-navigate to the project directory and open 
+2. Intall any necessary libraries (if they are not installed already)
+run command
+- pip install Jupyter
 
-    index.html 
+3. Open trigrams.ipynb in Jupyter Notebook to run each cell and follow the steps.
 
-in your web browser to start chatbot
+# Running the Project
 
-## Prerequisites
+Each task in the project structured in the Jupyter Notebook has a clear explanation and code blocks. Open trigrams.ipynb and execute each cell in order. You will be able to see:
+- How the trigram model is built
+- The generated text
+- The percentage of valid English words in that text
+- The exported JSON file
 
-To run this project locally, you only need a web browser.
+# Exporting the Model
 
+After the completion of task 4, you will have a trigrams.json file in the /Data directory. This file contains the trigram model, saved in JSON format, with each trigram and its frequency count.
 
-# Troubleshooting Common Issues
+# Example Outputs
 
-GitHub Actions Deployment Error: 
+Here is a short example of what the generated text might look like ( each run will change slightly):
 
-If you encounter a Git permission error (exit code 128), ensure that you have added a Personal Access Token as a repository secret.
+"TH IS A SA MP LE OF TE XT TH AT LO OKS LI KE EN GL ISH BUT MI GH T NO T MA KE S EN SE"
 
-GitHub Pages Not Updating: 
-
-Make sure GitHub Pages is set to use the gh-pages branch in the repository settings.
-
-
+The generated text will likely contain between 30 - 50 % valid english words in this case using the source texts in /Data directory.
 
 # Conclusion
 
-This project demonstrates the fundamentals of client-side web development and chatbot functionality. Based on the simplicity of the original ELIZA, this version of the chatbot only emits responses that are hardcoded in JavaScript logic and based on pattern matching. Also offers the deployment of GitHub pages.
+We have shown through these tests that a trigram-based model can estimate language patterns and produce English-structured text. It is a very straightforward method and it can be reusable for more text production and natural language processing strategies. 
 
-# References
-
-I used the following resources that helped me complete this project
-
-- [GitHub Page Documentation](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax) for guidance on setting up and configuring GitHub Pages. GitHub Pages Documentation
-- [GitHub Actions Documentation](https://docs.github.com/en/actions) and [GitHub Issues](https://docs.github.com/en/issues/tracking-your-work-with-issues/using-issues/creating-an-issue) for understanding and troubleshooting GitHub Actions workflows.
-- ChatGPT for support and explanations on implementing specific features and solving issues.
-- Lecturers and Lab Materials for guidance, and code stubs that assisted in building this project.
 
 
